@@ -3,7 +3,7 @@
 DePaul IHS
 */
 
-@font-face {
+/*@font-face {
     font-family: 'GibsonSemiBold';
     src: url('/css/fonts/gibson-semibold-webfont.eot');
     src: url('/css/fonts/gibson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -102,10 +102,14 @@ h2 {
   float: left;
   margin-right: 8px;
   opacity: 0.7;
+} */
+
+tr:first-child {
+    background-color: yellow;
 }
 
 tr:nth-child(2) {
-    background-color: yellow;
+    background-color: DarkGoldenRod;
 }
 
 tr:last-child {
