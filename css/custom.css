@@ -104,10 +104,6 @@ h2 {
   opacity: 0.7;
 } */
 
-td {
-    background-color: Gold;
-}
-
 tr:first-child {
     background-color: Silver;
 }
