@@ -51,7 +51,7 @@ CsvToHtmlTable = {
                 }
                 $table.append($tableBody);
 
-                $table.DataTable(datatables_options);
+                //$table.DataTable(datatables_options);
 
                 text.innerHTML = csvData.length;
 
