@@ -52,8 +52,9 @@ CsvToHtmlTable = {
                 $table.append($tableBody);
 
                 //$table.DataTable(datatables_options);
-                
-                text.innerHTML = csvData.split(",").indexOf("růžová");
+                var split = csvData.split(",");
+                var index = split.indexOf("růžová");
+                text.innerHTML = index;
 
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
