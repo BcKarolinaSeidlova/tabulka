@@ -105,17 +105,17 @@ h2 {
 } */
 
 tr:first-child {
-    background-color: Golden;
+    background-color: #FFD700;
 }
 
 tr:nth-child(2) {
-    background-color: Silver;
+    background-color: #C0C0C0;
 }
 
 tr:nth-child(3) {
-    background-color: Chocolate;
+    background-color: #D2691E;
 }
 
 tr:last-child {
-    background-color: cyan;
+    background-color: #FF6347;
 }
