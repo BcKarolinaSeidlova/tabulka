@@ -57,11 +57,11 @@ CsvToHtmlTable = {
                 }
             });
     }
+    
+};
 
-var table = document.getElementsByTagName("tr");
+var table = document.getElementsByTagName("el-table");
 var text = document.getElementById("text");
 
 text.innerHTML = table.length;
-    
-};
 
