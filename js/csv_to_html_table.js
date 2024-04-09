@@ -53,7 +53,7 @@ CsvToHtmlTable = {
 
                 //$table.DataTable(datatables_options);
 
-                text.innerHTML = csvData.length + "Fat index: " + csvData.indexOf('fat');
+                text.innerHTML = csvData;
 
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
