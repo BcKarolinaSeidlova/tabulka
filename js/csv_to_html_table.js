@@ -26,6 +26,7 @@ CsvToHtmlTable = {
                 var $tableHead = $("<thead></thead>");
                 var csvHeaderRow = csvData[0];
                 var $tableHeadRow = $("<tr></tr>");
+                var text = document.getElementById("text");
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
                 }
@@ -52,6 +53,8 @@ CsvToHtmlTable = {
 
                 $table.DataTable(datatables_options);
 
+                text.innerHTML = csvData.length;
+
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
                 }
@@ -59,9 +62,4 @@ CsvToHtmlTable = {
     }
     
 };
-
-var table = document.getElementsByTagName("el-table");
-var text = document.getElementById("text");
-
-text.innerHTML = table.length;
 
