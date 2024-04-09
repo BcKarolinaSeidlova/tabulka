@@ -105,13 +105,17 @@ h2 {
 } */
 
 tr:first-child {
-    background-color: yellow;
+    background-color: Golden;
 }
 
 tr:nth-child(2) {
-    background-color: green;
+    background-color: Silver;
 }
 
-th:last-child {
+tr:nth-child(3) {
+    background-color: Chocolate;
+}
+
+tr:last-child {
     background-color: cyan;
 }
