@@ -121,5 +121,5 @@ tr:nth-child(n-2) {
 }
 
 tr:last-child {
-    background-color: red;
+    background-color: cyan;
 }
