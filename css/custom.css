@@ -120,6 +120,6 @@ tr:nth-child(3) {
     background-color: #D2691E;
 }
 
-tr:last-child {
+tr:nth-child(n-2) {
     background-color: #FF6347;
 }
