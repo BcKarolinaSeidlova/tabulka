@@ -55,12 +55,10 @@ CsvToHtmlTable = {
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
                 }
-            });
+         var table = document.getElementsByTagName("tr");
+var text = document.getElementById("text");
+
+text.innerHTML = table.length;   });
     }
 };
 
-
-var table = document.getElementsByTagName("tr");
-var text = document.getElementById("text");
-
-text.innerHTML = table.length;
