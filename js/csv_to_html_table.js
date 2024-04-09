@@ -58,3 +58,9 @@ CsvToHtmlTable = {
             });
     }
 };
+
+
+var table = document.getElementsByTagName("tr");
+var text = document.getElementById("text");
+
+text.innerHTML = table.length;
